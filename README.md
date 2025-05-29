@@ -2,7 +2,7 @@
 
 🎓 **Informatics Engineering Student** at University of Lampung  
 💻 **Web Developer** | Passionate about building modern, responsive, and accessible web applications.  
-⚡ Focused on clean code, reusable components, and great user experiences.
+⚡ Focused on clean code and reusable components.
 
 ---
 
