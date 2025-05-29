@@ -29,7 +29,7 @@
 
 ## 📫 Let's Connect!
 
-- LinkedIn: [linkedin.com/in/arswendoerza](https://linkedin.com/in/arswendoerza)
+- LinkedIn: [linkedin.com/in/arswendoerza](https://www.linkedin.com/in/arswendo-erza-sadewa-71ba172b7/)
 
 ---
 
