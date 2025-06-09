@@ -8,26 +8,37 @@
 
 ## 🛠️ Tech Stack
 
-- **Frontend:**  
-  ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=flat-square)  
-  ![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white&style=flat-square)  
-  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?logo=bootstrap&logoColor=white&style=flat-square)  
-  ![Shadcn UI](https://img.shields.io/badge/-Shadcn_UI-000000?style=flat-square)  
-  ![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=white&style=flat-square)
+<table>
+  <tr>
+    <td valign="top">
 
-- **Backend:**  
-  ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white&style=flat-square)  
-  ![Express.js](https://img.shields.io/badge/-Express.js-000000?logo=express&logoColor=white&style=flat-square)
+### 🚀 Frontend:
+- ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=flat-square)  
+- ![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white&style=flat-square)  
+- ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?logo=bootstrap&logoColor=white&style=flat-square)  
+- ![Shadcn UI](https://img.shields.io/badge/-Shadcn_UI-000000?style=flat-square)  
+- ![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=white&style=flat-square)  
 
-- **Tools & Others:**  
-  ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=flat-square)  
-  ![VS Code](https://img.shields.io/badge/-VS_Code-007ACC?logo=visual-studio-code&logoColor=white&style=flat-square)  
-  ![Figma](https://img.shields.io/badge/-Figma-F24E1E?logo=figma&logoColor=white&style=flat-square)  
-  ![BlueJ](https://img.shields.io/badge/-BlueJ-002A5C?style=flat-square)
+### 🔧 Tools & Others:
+- ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=flat-square)  
+- ![VS Code](https://img.shields.io/badge/-VS_Code-007ACC?logo=visual-studio-code&logoColor=white&style=flat-square)  
+- ![Figma](https://img.shields.io/badge/-Figma-F24E1E?logo=figma&logoColor=white&style=flat-square)  
+- ![BlueJ](https://img.shields.io/badge/-BlueJ-002A5C?style=flat-square)  
 
-- **Testing:**  
-  ![Selenium IDE](https://img.shields.io/badge/-Selenium_IDE-43B02A?logo=selenium&logoColor=white&style=flat-square)  
-  ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat-square)
+</td>
+<td valign="top">
+
+### 🧠 Backend:
+- ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white&style=flat-square)  
+- ![Express.js](https://img.shields.io/badge/-Express.js-000000?logo=express&logoColor=white&style=flat-square)  
+
+### 🧪 Testing:
+- ![Selenium IDE](https://img.shields.io/badge/-Selenium_IDE-43B02A?logo=selenium&logoColor=white&style=flat-square)  
+- ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat-square)
+
+</td>
+</tr>
+</table>
 
 ---
 
