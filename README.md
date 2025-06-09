@@ -1,4 +1,5 @@
 # Hi, I'm Arswendo Erza Sadewa
+_"Code with purpose, design with clarity."_
 
 🎓 **Informatics Engineering Student** at University of Lampung  
 💻 **Web Developer** | Passionate about building modern, responsive, and accessible web applications.  
@@ -52,9 +53,6 @@
 
 - LinkedIn: [linkedin.com/in/arswendoerza](https://www.linkedin.com/in/arswendo-erza-sadewa-71ba172b7/)
 
----
-
-⭐️ _"Code with purpose, design with clarity."_
 
 ---
 
