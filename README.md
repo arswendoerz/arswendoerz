@@ -51,13 +51,7 @@ _"Code with purpose, design with clarity."_
 
 ## 📫 Let's Connect!
 
-- LinkedIn: [linkedin.com/in/arswendoerza](https://www.linkedin.com/in/arswendo-erza-sadewa-71ba172b7/)
-
-
----
-
-## 🎧 My Spotify Profile
-
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/arswendo-erza-sadewa-71ba172b7/)
 [![Spotify](https://img.shields.io/badge/Follow%20on%20Spotify-1DB954?logo=spotify&logoColor=white&style=for-the-badge)](https://open.spotify.com/user/hslv7q6rbsg8d017fszfrojhl)
 
 ---
