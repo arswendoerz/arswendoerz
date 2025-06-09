@@ -57,3 +57,9 @@
 ⭐️ _"Code with purpose, design with clarity."_
 
 ---
+
+## 🎧 My Spotify Profile
+
+[![Spotify](https://img.shields.io/badge/Follow%20on%20Spotify-1DB954?logo=spotify&logoColor=white&style=for-the-badge)](https://open.spotify.com/user/hslv7q6rbsg8d017fszfrojhl)
+
+---
