@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Arswendo Erza Sadewa
+# Hi, I'm Arswendo Erza Sadewa
 
 🎓 **Informatics Engineering Student** at University of Lampung  
 💻 **Web Developer** | Passionate about building modern, responsive, and accessible web applications.  
@@ -24,6 +24,10 @@
   ![VS Code](https://img.shields.io/badge/-VS_Code-007ACC?logo=visual-studio-code&logoColor=white&style=flat-square)  
   ![Figma](https://img.shields.io/badge/-Figma-F24E1E?logo=figma&logoColor=white&style=flat-square)  
   ![BlueJ](https://img.shields.io/badge/-BlueJ-002A5C?style=flat-square)
+
+- **Testing:**  
+  ![Selenium IDE](https://img.shields.io/badge/-Selenium_IDE-43B02A?logo=selenium&logoColor=white&style=flat-square)  
+  ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat-square)
 
 ---
 
