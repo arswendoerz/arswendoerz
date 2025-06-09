@@ -14,11 +14,11 @@ _"Code with purpose, design with clarity."_
     <td valign="top" style="width:25%; vertical-align:top; padding-right:15px;">
 
 ### 🚀 Frontend
-- ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=flat-square)  
-- ![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white&style=flat-square)  
-- ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?logo=bootstrap&logoColor=white&style=flat-square)  
-- ![Shadcn UI](https://img.shields.io/badge/-Shadcn_UI-000000?style=flat-square)  
-- ![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=white&style=flat-square)
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=flat-square)  
+![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white&style=flat-square)  
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?logo=bootstrap&logoColor=white&style=flat-square)  
+![Shadcn UI](https://img.shields.io/badge/-Shadcn_UI-000000?style=flat-square)  
+![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=white&style=flat-square)
 
 </td>
 <td valign="top" style="width:25%; vertical-align:top; padding-right:15px;">
