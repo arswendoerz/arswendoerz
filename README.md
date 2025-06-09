@@ -57,9 +57,3 @@
 ⭐️ _"Code with purpose, design with clarity."_
 
 ---
-
-## 🎵 Now Playing
-
-**Membasuh – Hindia**  
-[![Spotify](https://img.shields.io/badge/Play%20on%20Spotify-1DB954?logo=spotify&logoColor=white&style=for-the-badge)](https://open.spotify.com/track/7HpjUtZgD1pVtxZ1WEPVYt)
-
