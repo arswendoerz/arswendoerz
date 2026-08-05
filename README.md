@@ -17,20 +17,6 @@
 
 ---
 
-## 💼 Featured Projects
-
-<div align="center">
-
-| Project | Description | Tech Stack | Actions |
-| :---: | :--- | :--- | :--- |
-| **🚀 Modern Portfolio** | High-performance personal portfolio website with smooth animations. | `React` `Next.js` `Tailwind` | [Live Demo](https://github.com/arswendoerz) · [Code](https://github.com/arswendoerz) |
-| **🛍️ E-Commerce Dashboard** | Feature-rich admin dashboard with interactive charts and data management. | `Next.js` `Shadcn UI` `Tailwind` | [Live Demo](https://github.com/arswendoerz) · [Code](https://github.com/arswendoerz) |
-| **⚡ Task Manager App** | Collaborative productivity tool with real-time updates and clean UI. | `React` `Node.js` `Express` | [Live Demo](https://github.com/arswendoerz) · [Code](https://github.com/arswendoerz) |
-
-</div>
-
----
-
 ## 🛠️ Tech Stack & Skills
 
 <div align="center">
@@ -67,63 +53,23 @@
   <img src="https://img.shields.io/badge/-Figma-F24E1E?logo=figma&logoColor=white&style=flat-square" />
   <img src="https://img.shields.io/badge/-BlueJ-002A5C?style=flat-square" />
   <img src="https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat-square" />
-  <img src="https://img.shields.io/badge/-Selenium-43B02A?logo=selenium&logoColor=white&style=flat-square" />
+  <img src="https://img.shields.io/badge/-Selenium-43B02Y?logo=selenium&logoColor=white&style=flat-square" />
 </p>
 
 </div>
 
 ---
 
-## 📊 GitHub Insights & Trophies
+## 🏆 GitHub Trophies & Streak
 
 <div align="center">
 
-<!-- GitHub Activity Stats -->
-<p>
-  <a href="https://github.com/arswendoerz">
-    <img src="https://github-readme-stats.vercel.app/api?username=arswendoerz&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&hide=issues&card_width=495" alt="Arswendo's GitHub Stats" />
-  </a>
-</p>
-
-<!-- Top Languages Donut Chart -->
-<p>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arswendoerz&layout=donut-compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top Languages" />
-</p>
-
-<!-- GitHub Profile Trophies -->
 <p>
   <img src="https://github-profile-trophy.vercel.app/?username=arswendoerz&theme=tokyonight&no-bg=true&margin-w=5&margin-h=5" alt="Arswendo's Trophies" />
 </p>
-
-</div>
-
----
-
-## 🎮 GitHub Contribution Snake
-
-<div align="center">
-  <!-- Animasi ular yang otomatis memakan kotak kontribusi GitHub -->
-  <img src="https://raw.githubusercontent.com/arswendoerz/arswendoerz/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake Animation" />
-</div>
-
----
-
-## 🎧 Vibe & Thoughts
-
-<div align="center">
-
-<table style="border: none;">
-  <tr>
-    <td align="center" style="border: none; padding-right: 15px;">
-      <!-- Spotify Playing Card -->
-      <img src="https://spotify-readme-spotify-status.vercel.app/api/spotify?user=hslv7q6rbsg8d017fszfrojhl&theme=tokyo-night&border_radius=10&bar_color=1db954" alt="Spotify Playing" />
-    </td>
-    <td align="center" style="border: none; padding-left: 15px;">
-      <!-- Dynamic Developer Quote -->
-      <img src="https://readme-quotes-bay.vercel.app/api?theme=tokyonight&border_radius=10" alt="Quote of the Day" />
-    </td>
-  </tr>
-</table>
+<p>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=arswendoerz&theme=tokyonight&hide_border=true&background=1a1a1a" alt="GitHub Streak" />
+</p>
 
 </div>
 
