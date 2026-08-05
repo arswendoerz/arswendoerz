@@ -21,7 +21,7 @@
 
 <div align="center">
 
-### Frontend & Frameworks
+### 🎨 Frontend & Frameworks
 <p>
   <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,bootstrap,vite,html,css,js" alt="Frontend Tech" />
 </p>
@@ -34,7 +34,7 @@
   <img src="https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=white&style=flat-square" />
 </p>
 
-### Backend & Database
+### ⚙️ Backend & Database
 <p>
   <img src="https://skillicons.dev/icons?i=nodejs,express" alt="Backend Tech" />
 </p>
@@ -43,7 +43,7 @@
   <img src="https://img.shields.io/badge/-Express.js-000000?logo=express&logoColor=white&style=flat-square" />
 </p>
 
-### Tools, Design & Testing
+### 🧰 Tools, Design & Testing
 <p>
   <img src="https://skillicons.dev/icons?i=git,vscode,figma,python,selenium" alt="Tools Tech" />
 </p>
@@ -53,25 +53,25 @@
   <img src="https://img.shields.io/badge/-Figma-F24E1E?logo=figma&logoColor=white&style=flat-square" />
   <img src="https://img.shields.io/badge/-BlueJ-002A5C?style=flat-square" />
   <img src="https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat-square" />
-  <img src="https://img.shields.io/badge/-Selenium-43B02A?logo=selenium&logoColor=white&style=flat-square" />
+  <img src="https://img.shields.io/badge/-Selenium-43B02Y?logo=selenium&logoColor=white&style=flat-square" />
 </p>
 
 </div>
 
 ---
 
-## 📊 GitHub Stats
+## 🏆 GitHub Trophies & Streak
 
 <div align="center">
 
+<!-- GitHub Trophies (Menampilkan trofi pencapaian coding otomatis) -->
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=arswendoerz&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="Arswendo's GitHub Stats" />
+  <img src="https://github-profile-trophy.vercel.app/?username=arswendoerz&theme=tokyonight&no-bg=true&margin-w=5&margin-h=5" alt="Arswendo's Trophies" />
 </p>
+
+<!-- GitHub Streak Stats (Stabil dan jarang error) -->
 <p>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arswendoerz&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</p>
-<p>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=arswendoerz&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=arswendoerz&theme=tokyonight&hide_border=true&background=1a1a1a" alt="GitHub Streak" />
 </p>
 
 </div>
