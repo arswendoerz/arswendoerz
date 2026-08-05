@@ -2,7 +2,7 @@
 
 # 👋 Hi, I'm Arswendo Erza Sadewa
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=38B2AC&center=true&vCenter=true&width=500&lines=Informatics+Engineering+Student;Web+Developer+%7C+Frontend+Enthusiast;Code+with+purpose%2C+design+with+clarity." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=38B2AC&center=true&vCenter=true&width=550&lines=Web+Developer+%7C+Frontend+Enthusiast;Building+Modern+%26+Scalable+Web+Apps;Code+with+purpose%2C+design+with+clarity." alt="Typing SVG" />
 
 </div>
 
@@ -10,9 +10,8 @@
 
 <div align="center">
   
-🎓 **Informatics Engineering Student** at University of Lampung  
-💻 **Web Developer** | Passionate about building modern, responsive, and accessible web applications.  
-⚡ Focused on clean code and reusable components.
+🚀 **Web & Frontend Developer** | Passionate about building modern, responsive, and accessible web applications.  
+⚡ Focused on clean architecture, smooth user experience, and reusable components.
 
 </div>
 
@@ -65,9 +64,15 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=arswendoerza&show_icons=true&theme=radical&hide_border=true&bg_color=1a1a1a" alt="GitHub Stats" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arswendoerza&layout=compact&theme=radical&hide_border=true&bg_color=1a1a1a" alt="Top Languages" />
+<p>
+  <img src="https://github-readme-stats.vercel.app/api?username=arswendoerza&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="Arswendo's GitHub Stats" />
+</p>
+<p>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arswendoerza&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</p>
+<p>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=arswendoerza&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
 
 </div>
 
@@ -77,7 +82,20 @@
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/arswendo-erza-sadewa-71ba172b7/)
-[![Spotify](https://img.shields.io/badge/Follow%20on%20Spotify-1DB954?logo=spotify&logoColor=white&style=for-the-badge)](https://open.spotify.com/user/hslv7q6rbsg8d017fszfrojhl)
+<p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+
+<a href="https://www.linkedin.com/in/arswendo-erza-sadewa-71ba172b7/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="mailto:emailkamu@gmail.com" target="_blank">
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+</a>
+<a href="https://open.spotify.com/user/hslv7q6rbsg8d017fszfrojhl" target="_blank">
+  <img src="https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify" />
+</a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=arswendoerza&color=38B2AC&style=flat-square&label=Profile+Visitors" alt="Profile Visitors" />
 
 </div>
