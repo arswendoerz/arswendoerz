@@ -21,7 +21,7 @@
 
 <div align="center">
 
-### 🎨 Frontend & Frameworks
+### Frontend & Frameworks
 <p>
   <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,bootstrap,vite,html,css,js" alt="Frontend Tech" />
 </p>
@@ -34,7 +34,7 @@
   <img src="https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=white&style=flat-square" />
 </p>
 
-### ⚙️ Backend & Database
+### Backend & Database
 <p>
   <img src="https://skillicons.dev/icons?i=nodejs,express" alt="Backend Tech" />
 </p>
@@ -43,7 +43,7 @@
   <img src="https://img.shields.io/badge/-Express.js-000000?logo=express&logoColor=white&style=flat-square" />
 </p>
 
-### 🧰 Tools, Design & Testing
+### Tools, Design & Testing
 <p>
   <img src="https://skillicons.dev/icons?i=git,vscode,figma,python,selenium" alt="Tools Tech" />
 </p>
@@ -96,6 +96,6 @@
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=arswendoerza&color=38B2AC&style=flat-square&label=Profile+Visitors" alt="Profile Visitors" />
+<img src="https://komarev.com/ghpvc/?username=arswendoerz&color=38B2AC&style=flat-square&label=Profile+Visitors" alt="Profile Visitors" />
 
 </div>
