@@ -65,13 +65,13 @@
 <div align="center">
 
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=arswendoerza&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="Arswendo's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=arswendoerz&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="Arswendo's GitHub Stats" />
 </p>
 <p>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arswendoerza&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arswendoerz&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </p>
 <p>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=arswendoerza&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=arswendoerz&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
 </div>
