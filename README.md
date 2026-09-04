@@ -17,7 +17,7 @@
 
 ## About
 
-Web and frontend developer based in Bandar Lampung, Fresh Graduate in Informatics Engineering Universitas Lampung. I build modern, responsive, and accessible web applications — with a bias toward clean architecture, smooth user experience, and components you only have to write once.
+Web and frontend developer based in Bandar Lampung, Fresh Graduate in Informatics Engineering Universitas Lampung. I build modern, responsive, and accessible web applications, with a bias toward clean architecture, smooth user experience, and components you only have to write once.
 
 I move comfortably between Figma and code, so design intent survives the handoff. Outside of
 interfaces, I automate the repetitive parts with Python and Selenium.
