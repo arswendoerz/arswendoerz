@@ -2,82 +2,51 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:38B2AC,50:4F8CC9,100:7C3AED&height=200&section=header&text=Arswendo%20Erza%20Sadewa&fontSize=40&fontColor=ffffff&fontAlignY=32&desc=Web%20Developer%20%E2%80%A2%20Frontend%20Enthusiast&descAlignY=52&descSize=16&animation=fadeIn" width="100%" alt="header" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=38B2AC&center=true&vCenter=true&width=600&lines=Building+Modern+%26+Scalable+Web+Apps;Clean+Architecture%2C+Smooth+UX;Code+with+purpose%2C+design+with+clarity." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3200&pause=1200&color=38B2AC&center=true&vCenter=true&width=600&lines=Building+modern+%26+scalable+web+apps;Clean+architecture%2C+smooth+UX;Code+with+purpose%2C+design+with+clarity." alt="Typing SVG" />
 
 <br/>
 
-<a href="https://www.linkedin.com/in/arswendo-erza-sadewa-71ba172b7/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:arswendoerza00@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://open.spotify.com/user/hslv7q6rbsg8d017fszfrojhl"><img src="https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify" /></a>
-<img src="https://komarev.com/ghpvc/?username=arswendoerz&color=38B2AC&style=for-the-badge&label=VISITORS" alt="Profile Visitors" />
+<a href="https://www.linkedin.com/in/arswendo-erza-sadewa-71ba172b7/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:arswendoerza00@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://open.spotify.com/user/hslv7q6rbsg8d017fszfrojhl"><img src="https://img.shields.io/badge/Spotify-1DB954?style=flat-square&logo=spotify&logoColor=white" alt="Spotify" /></a>
+<img src="https://komarev.com/ghpvc/?username=arswendoerz&color=6E7681&style=flat-square&label=views" alt="Profile Views" />
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:38B2AC,50:4F8CC9,100:7C3AED&height=4&section=header" width="100%" alt="" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:38B2AC,50:4F8CC9,100:7C3AED&height=3&section=header" width="100%" alt="" />
 
-## 🧑‍💻 About Me
+## About
 
-```js
-const arswendo = {
-  role:      "Web & Frontend Developer",
-  focus:     ["Clean architecture", "Accessible UI", "Reusable components"],
-  stack:     ["React", "Next.js", "TypeScript", "Tailwind CSS", "Node.js"],
-  currently: "Sharpening full-stack fundamentals & test automation",
-  mindset:   "Ship it simple, then make it elegant.",
-};
-```
+Web and frontend developer based in Bandar Lampung, Fresh Graduate in Informatics Engineering Universitas Lampung. I build modern, responsive, and accessible web applications — with a bias toward clean architecture, smooth user experience, and components you only have to write once.
 
-- 🚀 I build **modern, responsive, and accessible** web applications.
-- ⚡ I care about **clean architecture**, smooth user experience, and components you only write once.
-- 🎨 I move comfortably between **Figma** and code — design intent survives the handoff.
-- 🧪 I automate the boring parts with **Python + Selenium**.
-- 💬 Ask me about **React, Next.js, Tailwind** — or why your layout is 3px off.
+I move comfortably between Figma and code, so design intent survives the handoff. Outside of
+interfaces, I automate the repetitive parts with Python and Selenium.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:38B2AC,50:4F8CC9,100:7C3AED&height=4&section=header" width="100%" alt="" />
-
-## 🛠️ Tech Stack
+<br/>
 
 <div align="center">
-<table>
-<tr>
-<td align="center" width="34%">
 
-**🎨 Frontend**
+**Frontend**
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,ts&theme=dark" alt="React, Next.js, TypeScript" /><br/>
-<img src="https://skillicons.dev/icons?i=js,html,css&theme=dark" alt="JavaScript, HTML, CSS" /><br/>
-<img src="https://skillicons.dev/icons?i=tailwind,bootstrap,vite&theme=dark" alt="Tailwind, Bootstrap, Vite" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,html,css,tailwind,bootstrap,vite&theme=dark" alt="React, Next.js, TypeScript, JavaScript, HTML, CSS, Tailwind, Bootstrap, Vite" />
 
-<sub>**+** `shadcn/ui`</sub>
+**Backend**
 
-</td>
-<td align="center" width="33%">
+<img src="https://skillicons.dev/icons?i=nodejs,express,python,cpp&theme=dark" alt="Node.js, Express, Python, C++" />
 
-**⚙️ Backend**
+**Tools**
 
-<img src="https://skillicons.dev/icons?i=nodejs,express&theme=dark" alt="Node.js, Express" /><br/>
-<img src="https://skillicons.dev/icons?i=python,cpp&theme=dark" alt="Python, C++" />
+<img src="https://skillicons.dev/icons?i=git,github,vscode,figma,selenium&theme=dark" alt="Git, GitHub, VS Code, Figma, Selenium" />
 
-<sub>**+** `REST APIs`</sub>
+<br/>
 
-</td>
-<td align="center" width="33%">
+<sub>shadcn/ui &nbsp;·&nbsp; REST APIs &nbsp;·&nbsp; BlueJ</sub>
 
-**🧰 Tools & Testing**
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode&theme=dark" alt="Git, GitHub, VS Code" /><br/>
-<img src="https://skillicons.dev/icons?i=figma,selenium&theme=dark" alt="Figma, Selenium" />
-
-<sub>**+** `BlueJ`</sub>
-
-</td>
-</tr>
-</table>
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:38B2AC,50:4F8CC9,100:7C3AED&height=4&section=header" width="100%" alt="" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:38B2AC,50:4F8CC9,100:7C3AED&height=3&section=header" width="100%" alt="" />
 
-## 📊 GitHub Analytics
+## Analytics
 
 <div align="center">
 
@@ -99,19 +68,17 @@ const arswendo = {
 
 <br/><br/>
 
-**🌱 Contribution Graph**
-
 <img src="https://ghchart.rshah.org/38B2AC/arswendoerz" width="98%" alt="Contribution Chart" />
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:38B2AC,50:4F8CC9,100:7C3AED&height=4&section=header" width="100%" alt="" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:38B2AC,50:4F8CC9,100:7C3AED&height=3&section=header" width="100%" alt="" />
 
-## 📫 Let's Connect
+## Contact
 
 <div align="center">
 
-I'm always open to discussing **new projects, creative ideas, or opportunities**<br/>to be part of your vision.
+Open to new projects, creative ideas, and opportunities to be part of your vision.
 
 <br/>
 
@@ -120,7 +87,7 @@ I'm always open to discussing **new projects, creative ideas, or opportunities**
 
 <br/><br/>
 
-<i>⭐ From <a href="https://github.com/arswendoerz">arswendoerz</a> — thanks for stopping by!</i>
+<sub>Thanks for stopping by.</sub>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:4F8CC9,100:38B2AC&height=120&section=footer" width="100%" alt="footer" />
 
