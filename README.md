@@ -1,98 +1,127 @@
 <div align="center">
 
-# 👋 Hi, I'm Arswendo Erza Sadewa
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38B2AC,50:4F8CC9,100:7C3AED&height=200&section=header&text=Arswendo%20Erza%20Sadewa&fontSize=40&fontColor=ffffff&fontAlignY=32&desc=Web%20Developer%20%E2%80%A2%20Frontend%20Enthusiast&descAlignY=52&descSize=16&animation=fadeIn" width="100%" alt="header" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=38B2AC&center=true&vCenter=true&width=550&lines=Web+Developer+%7C+Frontend+Enthusiast;Building+Modern+%26+Scalable+Web+Apps;Code+with+purpose%2C+design+with+clarity." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=38B2AC&center=true&vCenter=true&width=600&lines=Building+Modern+%26+Scalable+Web+Apps;Clean+Architecture%2C+Smooth+UX;Code+with+purpose%2C+design+with+clarity." alt="Typing SVG" />
 
-</div>
+<br/>
 
----
-
-<div align="center">
-  
-🚀 **Web & Frontend Developer** | Passionate about building modern, responsive, and accessible web applications.  
-⚡ Focused on clean architecture, smooth user experience, and reusable components.
+<a href="https://www.linkedin.com/in/arswendo-erza-sadewa-71ba172b7/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:arswendoerza00@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://open.spotify.com/user/hslv7q6rbsg8d017fszfrojhl"><img src="https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify" /></a>
+<img src="https://komarev.com/ghpvc/?username=arswendoerz&color=38B2AC&style=for-the-badge&label=VISITORS" alt="Profile Visitors" />
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:38B2AC,50:4F8CC9,100:7C3AED&height=4&section=header" width="100%" alt="" />
 
-## 🛠️ Tech Stack & Skills
+## 🧑‍💻 About Me
+
+```js
+const arswendo = {
+  role:      "Web & Frontend Developer",
+  focus:     ["Clean architecture", "Accessible UI", "Reusable components"],
+  stack:     ["React", "Next.js", "TypeScript", "Tailwind CSS", "Node.js"],
+  currently: "Sharpening full-stack fundamentals & test automation",
+  mindset:   "Ship it simple, then make it elegant.",
+};
+```
+
+- 🚀 I build **modern, responsive, and accessible** web applications.
+- ⚡ I care about **clean architecture**, smooth user experience, and components you only write once.
+- 🎨 I move comfortably between **Figma** and code — design intent survives the handoff.
+- 🧪 I automate the boring parts with **Python + Selenium**.
+- 💬 Ask me about **React, Next.js, Tailwind** — or why your layout is 3px off.
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:38B2AC,50:4F8CC9,100:7C3AED&height=4&section=header" width="100%" alt="" />
+
+## 🛠️ Tech Stack
 
 <div align="center">
+<table>
+<tr>
+<td align="center" width="34%">
 
-### 🎨 Frontend & Frameworks
-<p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,bootstrap,vite,html,css,js" alt="Frontend Tech" />
-</p>
-<p>
-  <img src="https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=flat-square" />
-  <img src="https://img.shields.io/badge/-Next.js-000000?logo=next.js&logoColor=white&style=flat-square" />
-  <img src="https://img.shields.io/badge/-Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white&style=flat-square" />
-  <img src="https://img.shields.io/badge/-Bootstrap-7952B3?logo=bootstrap&logoColor=white&style=flat-square" />
-  <img src="https://img.shields.io/badge/-Shadcn_UI-000000?style=flat-square" />
-  <img src="https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=white&style=flat-square" />
-</p>
+**🎨 Frontend**
 
-### ⚙️ Backend & Database
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express" alt="Backend Tech" />
-</p>
-<p>
-  <img src="https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white&style=flat-square" />
-  <img src="https://img.shields.io/badge/-Express.js-000000?logo=express&logoColor=white&style=flat-square" />
-</p>
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts&theme=dark" alt="React, Next.js, TypeScript" /><br/>
+<img src="https://skillicons.dev/icons?i=js,html,css&theme=dark" alt="JavaScript, HTML, CSS" /><br/>
+<img src="https://skillicons.dev/icons?i=tailwind,bootstrap,vite&theme=dark" alt="Tailwind, Bootstrap, Vite" />
 
-### 🧰 Tools, Design & Testing
-<p>
-  <img src="https://skillicons.dev/icons?i=git,vscode,figma,python,selenium" alt="Tools Tech" />
-</p>
-<p>
-  <img src="https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=flat-square" />
-  <img src="https://img.shields.io/badge/-VS_Code-007ACC?logo=visual-studio-code&logoColor=white&style=flat-square" />
-  <img src="https://img.shields.io/badge/-Figma-F24E1E?logo=figma&logoColor=white&style=flat-square" />
-  <img src="https://img.shields.io/badge/-BlueJ-002A5C?style=flat-square" />
-  <img src="https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat-square" />
-  <img src="https://img.shields.io/badge/-Selenium-43B02Y?logo=selenium&logoColor=white&style=flat-square" />
-</p>
+<sub>**+** `shadcn/ui`</sub>
 
+</td>
+<td align="center" width="33%">
+
+**⚙️ Backend**
+
+<img src="https://skillicons.dev/icons?i=nodejs,express&theme=dark" alt="Node.js, Express" /><br/>
+<img src="https://skillicons.dev/icons?i=python,cpp&theme=dark" alt="Python, C++" />
+
+<sub>**+** `REST APIs`</sub>
+
+</td>
+<td align="center" width="33%">
+
+**🧰 Tools & Testing**
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode&theme=dark" alt="Git, GitHub, VS Code" /><br/>
+<img src="https://skillicons.dev/icons?i=figma,selenium&theme=dark" alt="Figma, Selenium" />
+
+<sub>**+** `BlueJ`</sub>
+
+</td>
+</tr>
+</table>
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:38B2AC,50:4F8CC9,100:7C3AED&height=4&section=header" width="100%" alt="" />
 
-## 🏆 GitHub Trophies & Streak
-
-<div align="center">
-
-<p>
-  <img src="https://github-profile-trophy.vercel.app/?username=arswendoerz&theme=tokyonight&no-bg=true&margin-w=5&margin-h=5" alt="Arswendo's Trophies" />
-</p>
-<p>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=arswendoerz&theme=tokyonight&hide_border=true&background=1a1a1a" alt="GitHub Streak" />
-</p>
-
-</div>
-
----
-
-## 📫 Let's Connect!
+## 📊 GitHub Analytics
 
 <div align="center">
 
-<p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=arswendoerz&theme=tokyonight" width="98%" alt="Profile Details" />
 
-<a href="https://www.linkedin.com/in/arswendo-erza-sadewa-71ba172b7/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-<a href="mailto:emailkamu@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-</a>
-<a href="https://open.spotify.com/user/hslv7q6rbsg8d017fszfrojhl" target="_blank">
-  <img src="https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify" />
-</a>
+<br/>
+
+<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=arswendoerz&theme=tokyonight" alt="Top Languages by Repo" />
+<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=arswendoerz&theme=tokyonight" alt="Top Languages by Commit" />
+
+<br/>
+
+<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=arswendoerz&theme=tokyonight" alt="Stats" />
+<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=arswendoerz&theme=tokyonight&utcOffset=7" alt="Productive Time" />
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=arswendoerz&color=38B2AC&style=flat-square&label=Profile+Visitors" alt="Profile Visitors" />
+<img height="170" src="https://streak-stats.demolab.com?user=arswendoerz&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
+
+<br/><br/>
+
+**🌱 Contribution Graph**
+
+<img src="https://ghchart.rshah.org/38B2AC/arswendoerz" width="98%" alt="Contribution Chart" />
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:38B2AC,50:4F8CC9,100:7C3AED&height=4&section=header" width="100%" alt="" />
+
+## 📫 Let's Connect
+
+<div align="center">
+
+I'm always open to discussing **new projects, creative ideas, or opportunities**<br/>to be part of your vision.
+
+<br/>
+
+<a href="https://www.linkedin.com/in/arswendo-erza-sadewa-71ba172b7/"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:arswendoerza00@gmail.com"><img src="https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+
+<br/><br/>
+
+<i>⭐ From <a href="https://github.com/arswendoerz">arswendoerz</a> — thanks for stopping by!</i>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:4F8CC9,100:38B2AC&height=120&section=footer" width="100%" alt="footer" />
 
 </div>
