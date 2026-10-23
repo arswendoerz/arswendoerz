@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Footer">
+  <style>
+    .w0{animation:w0 14s linear infinite}
+    @keyframes w0{to{transform:translateX(-400px)}}
+    .w1{animation:w1 18s linear infinite}
+    @keyframes w1{to{transform:translateX(-600px)}}
+    .w2{animation:w2 10s linear infinite}
+    @keyframes w2{to{transform:translateX(-300px)}}
+  </style>
+  <path class="w0" d="M0 62 q100 -14 200 0 t200 0 q100 -14 200 0 t200 0 q100 -14 200 0 t200 0 q100 -14 200 0 t200 0 q100 -14 200 0 t200 0 q100 -14 200 0 t200 0 V150 H0 Z" fill="#7C3AED" fill-opacity="0.35"/>
+  <path class="w1" d="M0 78 q150 -18 300 0 t300 0 q150 -18 300 0 t300 0 q150 -18 300 0 t300 0 q150 -18 300 0 t300 0 V150 H0 Z" fill="#4F8CC9" fill-opacity="0.45"/>
+  <path class="w2" d="M0 96 q75 -12 150 0 t150 0 q75 -12 150 0 t150 0 q75 -12 150 0 t150 0 q75 -12 150 0 t150 0 q75 -12 150 0 t150 0 q75 -12 150 0 t150 0 q75 -12 150 0 t150 0 q75 -12 150 0 t150 0 V150 H0 Z" fill="#38B2AC" fill-opacity="0.55"/>
+</svg>

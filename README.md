@@ -12,7 +12,7 @@
 
 <br/><br/>
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,html,css,vite,laravel,php,nodejs,express,python,git,figma,vscode&perline=8&theme=dark" alt="React, Next.js, TypeScript, JavaScript, Tailwind, HTML, CSS, Vite, Laravel, PHP, Node.js, Express, Python, Git, Figma, VS Code" />
+<img src="assets/tech-ticker.svg" width="100%" alt="React, Next.js, TypeScript, JavaScript, Tailwind, HTML, CSS, Vite, Laravel, PHP, Node.js, Express, Python, Git, Figma, VS Code" />
 
 <h3>GitHub Stats</h3>
 
@@ -20,11 +20,15 @@
 
 <img src="https://streak-stats.demolab.com?user=arswendoerz&theme=tokyonight&hide_border=true&background=13141F&ring=5EEAD4&fire=A78BFA&currStreakLabel=5EEAD4&date_format=M%20j%5B%2C%20Y%5D" width="100%" alt="GitHub streak" />
 
+<img src="https://raw.githubusercontent.com/arswendoerz/arswendoerz/output/profile-3d.svg" width="100%" alt="3D contribution graph" />
+
 <br/><br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arswendoerz/arswendoerz/output/github-snake-dark.svg" />
   <img src="https://raw.githubusercontent.com/arswendoerz/arswendoerz/output/github-snake.svg" width="100%" alt="Contribution snake" />
 </picture>
+
+<img src="assets/footer.svg" width="100%" alt="" />
 
 </div>
