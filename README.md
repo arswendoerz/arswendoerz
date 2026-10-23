@@ -1,93 +1,30 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38B2AC,50:4F8CC9,100:7C3AED&height=200&section=header&text=Arswendo%20Erza%20Sadewa&fontSize=40&fontColor=ffffff&fontAlignY=32&desc=Web%20Developer%20%E2%80%A2%20Frontend%20Enthusiast&descAlignY=52&descSize=16&animation=fadeIn" width="100%" alt="header" />
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3200&pause=1200&color=38B2AC&center=true&vCenter=true&width=600&lines=Building+modern+%26+scalable+web+apps;Clean+architecture%2C+smooth+UX;Code+with+purpose%2C+design+with+clarity." alt="Typing SVG" />
+<img src="assets/header.svg" width="100%" alt="Arswendo Erza Sadewa, Fullstack Web Developer" />
 
 <br/>
 
-<a href="https://www.linkedin.com/in/arswendo-erza-sadewa-71ba172b7/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:arswendoerza00@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://open.spotify.com/user/hslv7q6rbsg8d017fszfrojhl"><img src="https://img.shields.io/badge/Spotify-1DB954?style=flat-square&logo=spotify&logoColor=white" alt="Spotify" /></a>
-<img src="https://komarev.com/ghpvc/?username=arswendoerz&color=6E7681&style=flat-square&label=views" alt="Profile Views" />
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:38B2AC,50:4F8CC9,100:7C3AED&height=3&section=header" width="100%" alt="" />
-
-## About
-
-Fullstack Web developer based in Bandar Lampung, Fresh Graduate in Informatics Engineering Universitas Lampung. I build modern, responsive, and accessible web applications, with a bias toward clean architecture, smooth user experience, and components you only have to write once.
-
-I move comfortably between Figma and code, so design intent survives the handoff. Outside of interfaces, I automate the repetitive parts with Python and Selenium.
-
-<br/>
-
-<div align="center">
-
-**Frontend**
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,html,css,tailwind,bootstrap,vite&theme=dark" alt="React, Next.js, TypeScript, JavaScript, HTML, CSS, Tailwind, Bootstrap, Vite" />
-
-**Backend**
-
-<img src="https://skillicons.dev/icons?i=nodejs,express,python,cpp&theme=dark" alt="Node.js, Express, Python, C++" />
-
-**Tools**
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,figma,selenium&theme=dark" alt="Git, GitHub, VS Code, Figma, Selenium" />
-
-<br/>
-
-<sub>shadcn/ui &nbsp;·&nbsp; REST APIs &nbsp;·&nbsp; BlueJ</sub>
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:38B2AC,50:4F8CC9,100:7C3AED&height=3&section=header" width="100%" alt="" />
-
-## Analytics
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=arswendoerz&theme=tokyonight" width="98%" alt="Profile Details" />
-
-<br/>
-
-<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=arswendoerz&theme=tokyonight" alt="Top Languages by Repo" />
-<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=arswendoerz&theme=tokyonight" alt="Top Languages by Commit" />
-
-<br/>
-
-<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=arswendoerz&theme=tokyonight" alt="Stats" />
-<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=arswendoerz&theme=tokyonight&utcOffset=7" alt="Productive Time" />
+<a href="https://www.arswendo-erza.my.id/"><img src="https://img.shields.io/badge/Portfolio-13141F?style=for-the-badge&logo=googlechrome&logoColor=5EEAD4" alt="Portfolio" /></a> <a href="https://www.linkedin.com/in/arswendo-erza-sadewa-71ba172b7/"><img src="https://img.shields.io/badge/LinkedIn-13141F?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iIzdBQTJGNyIgZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYy0xLjE0NCAwLTIuMDYzLS45MjYtMi4wNjMtMi4wNjUgMC0xLjEzOC45Mi0yLjA2MyAyLjA2My0yLjA2MyAxLjE0IDAgMi4wNjQuOTI1IDIuMDY0IDIuMDYzIDAgMS4xMzktLjkyNSAyLjA2NS0yLjA2NCAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyMiAwaC4wMDN6Ii8%2BPC9zdmc%2B" alt="LinkedIn" /></a> <a href="mailto:arswendoerza00@gmail.com"><img src="https://img.shields.io/badge/Email-13141F?style=for-the-badge&logo=gmail&logoColor=A78BFA" alt="Email" /></a> <img src="https://komarev.com/ghpvc/?username=arswendoerz&color=13141F&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views" />
 
 <br/><br/>
 
-<img height="170" src="https://streak-stats.demolab.com?user=arswendoerz&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
+<img src="assets/about.svg" width="100%" alt="About me" />
 
 <br/><br/>
 
-<img src="https://ghchart.rshah.org/38B2AC/arswendoerz" width="98%" alt="Contribution Chart" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,html,css,vite,laravel,php,nodejs,express,python,git,figma,vscode&perline=8&theme=dark" alt="React, Next.js, TypeScript, JavaScript, Tailwind, HTML, CSS, Vite, Laravel, PHP, Node.js, Express, Python, Git, Figma, VS Code" />
 
-</div>
+<h3>GitHub Stats</h3>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:38B2AC,50:4F8CC9,100:7C3AED&height=3&section=header" width="100%" alt="" />
+<img src="https://github-readme-stats.vercel.app/api?username=arswendoerz&show_icons=true&include_all_commits=true&count_private=true&hide_title=true&theme=tokyonight&hide_border=true&bg_color=13141F&icon_color=5EEAD4&title_color=7AA2F7" height="165" alt="GitHub stats" /> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arswendoerz&layout=compact&langs_count=8&hide_title=true&theme=tokyonight&hide_border=true&bg_color=13141F" height="165" alt="Top languages" />
 
-## Contact
-
-<div align="center">
-
-Open to new projects, creative ideas, and opportunities to be part of your vision.
-
-<br/>
-
-<a href="https://www.linkedin.com/in/arswendo-erza-sadewa-71ba172b7/"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:arswendoerza00@gmail.com"><img src="https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<img src="https://streak-stats.demolab.com?user=arswendoerz&theme=tokyonight&hide_border=true&background=13141F&ring=5EEAD4&fire=A78BFA&currStreakLabel=5EEAD4&date_format=M%20j%5B%2C%20Y%5D" width="100%" alt="GitHub streak" />
 
 <br/><br/>
 
-<sub>Thanks for stopping by.</sub>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:4F8CC9,100:38B2AC&height=120&section=footer" width="100%" alt="footer" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arswendoerz/arswendoerz/output/github-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/arswendoerz/arswendoerz/output/github-snake.svg" width="100%" alt="Contribution snake" />
+</picture>
 
 </div>

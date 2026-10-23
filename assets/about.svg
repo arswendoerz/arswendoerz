@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="t">
+  <title id="t">About: Fullstack Web Developer from Bandar Lampung. Stack: React, Next.js, TypeScript, Laravel, Node.js, Express, Python.</title>
+  <style>
+    text{font-family:Consolas,'SFMono-Regular',Menlo,monospace;font-size:19px}
+    .ln{fill:#3B4261;text-anchor:end}
+    .k{fill:#BB9AF7}.v{fill:#7DCFFF}.p{fill:#73DACA}.s{fill:#9ECE6A}.c{fill:#565F89;font-style:italic}.w{fill:#C0CAF5}.o{fill:#89DDFF}
+    .l{opacity:0;animation:in .45s ease-out forwards}
+    @keyframes in{from{opacity:0;transform:translateX(-8px)}to{opacity:1;transform:none}}
+    .cur{animation:blink 1.1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    .tab{font-family:'Segoe UI',Ubuntu,Arial,sans-serif;font-size:14px}
+  </style>
+  <rect width="1200" height="330" rx="16" fill="#13141f"/>
+  <rect x=".5" y=".5" width="1199" height="329" rx="16" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+  <path d="M0 16a16 16 0 0 1 16-16h1168a16 16 0 0 1 16 16v28H0z" fill="#1A1B27"/>
+  <circle cx="26" cy="22" r="6.5" fill="#F7768E"/><circle cx="48" cy="22" r="6.5" fill="#E0AF68"/><circle cx="70" cy="22" r="6.5" fill="#9ECE6A"/>
+  <rect x="100" y="8" width="128" height="36" rx="6" fill="#13141f"/>
+  <rect x="100" y="8" width="128" height="2" fill="#5EEAD4"/>
+  <text class="tab" x="118" y="31" fill="#C0CAF5"><tspan fill="#7AA2F7" font-weight="700">TS</tspan>  about.ts</text>
+
+  <g transform="translate(0,84)" xml:space="preserve">
+    <g class="l" style="animation-delay:.1s"><text class="ln" x="56" y="0">1</text><text x="80" y="0"><tspan class="c">// hello, world</tspan></text></g>
+    <g class="l" style="animation-delay:.3s"><text class="ln" x="56" y="30">2</text><text x="80" y="30"><tspan class="k">const</tspan> <tspan class="v">arswendo</tspan> <tspan class="o">=</tspan> <tspan class="w">{</tspan></text></g>
+    <g class="l" style="animation-delay:.5s"><text class="ln" x="56" y="60">3</text><text x="80" y="60">  <tspan class="p">role</tspan><tspan class="o">:</tspan> <tspan class="s">"Fullstack Web Developer"</tspan><tspan class="w">,</tspan></text></g>
+    <g class="l" style="animation-delay:.7s"><text class="ln" x="56" y="90">4</text><text x="80" y="90">  <tspan class="p">frontend</tspan><tspan class="o">:</tspan> <tspan class="w">[</tspan><tspan class="s">"React"</tspan><tspan class="w">, </tspan><tspan class="s">"Next.js"</tspan><tspan class="w">, </tspan><tspan class="s">"TypeScript"</tspan><tspan class="w">, </tspan><tspan class="s">"Tailwind"</tspan><tspan class="w">],</tspan></text></g>
+    <g class="l" style="animation-delay:.9s"><text class="ln" x="56" y="120">5</text><text x="80" y="120">  <tspan class="p">backend</tspan><tspan class="o">:</tspan> <tspan class="w">[</tspan><tspan class="s">"Laravel"</tspan><tspan class="w">, </tspan><tspan class="s">"Node.js"</tspan><tspan class="w">, </tspan><tspan class="s">"Express"</tspan><tspan class="w">, </tspan><tspan class="s">"Python"</tspan><tspan class="w">],</tspan></text></g>
+    <g class="l" style="animation-delay:1.1s"><text class="ln" x="56" y="150">6</text><text x="80" y="150">  <tspan class="p">focus</tspan><tspan class="o">:</tspan> <tspan class="s">"clean architecture &amp; smooth UX"</tspan><tspan class="w">,</tspan></text></g>
+    <g class="l" style="animation-delay:1.3s"><text class="ln" x="56" y="180">7</text><text x="80" y="180">  <tspan class="p">openToWork</tspan><tspan class="o">:</tspan> <tspan class="k">true</tspan><tspan class="w">,</tspan></text></g>
+    <g class="l" style="animation-delay:1.5s"><text class="ln" x="56" y="210">8</text><text x="80" y="210"><tspan class="w">};</tspan><tspan class="cur" fill="#5EEAD4">▍</tspan></text></g>
+  </g>
+</svg>
