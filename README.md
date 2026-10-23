@@ -22,13 +22,6 @@
 
 <img src="https://raw.githubusercontent.com/arswendoerz/arswendoerz/output/profile-3d.svg" width="100%" alt="3D contribution graph" />
 
-<br/><br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arswendoerz/arswendoerz/output/github-snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/arswendoerz/arswendoerz/output/github-snake.svg" width="100%" alt="Contribution snake" />
-</picture>
-
 <img src="assets/footer.svg" width="100%" alt="" />
 
 </div>
