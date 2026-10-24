@@ -28,4 +28,134 @@
     <g class="l" style="animation-delay:1.3s"><text class="ln" x="56" y="180">7</text><text x="80" y="180">  <tspan class="p">openToWork</tspan><tspan class="o">:</tspan> <tspan class="k">true</tspan><tspan class="w">,</tspan></text></g>
     <g class="l" style="animation-delay:1.5s"><text class="ln" x="56" y="210">8</text><text x="80" y="210"><tspan class="w">};</tspan><tspan class="cur" fill="#5EEAD4">▍</tspan></text></g>
   </g>
+  <!-- mascot --><defs>
+    <radialGradient id="elMetal" cx=".35" cy=".28" r=".85">
+      <stop offset="0" stop-color="#6670AC"/><stop offset=".45" stop-color="#2E3460"/><stop offset="1" stop-color="#121427"/>
+    </radialGradient>
+    <radialGradient id="elEar" cx=".5" cy=".35" r=".8">
+      <stop offset="0" stop-color="#4C5590"/><stop offset=".6" stop-color="#252A4D"/><stop offset="1" stop-color="#101222"/>
+    </radialGradient>
+    <linearGradient id="elGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFF1B8"/><stop offset=".45" stop-color="#F2C46D"/><stop offset="1" stop-color="#A86F24"/>
+    </linearGradient>
+    <linearGradient id="elRim" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5EEAD4"/><stop offset=".45" stop-color="#5EEAD4" stop-opacity="0"/>
+      <stop offset=".55" stop-color="#A78BFA" stop-opacity="0"/><stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <radialGradient id="elShadow">
+      <stop offset="0" stop-color="#000" stop-opacity=".6"/><stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="elHalo">
+      <stop offset="0" stop-color="#F2C46D" stop-opacity=".45"/><stop offset="1" stop-color="#F2C46D" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="elCore">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset=".45" stop-color="#9FF7E8"/><stop offset="1" stop-color="#5EEAD4" stop-opacity=".25"/>
+    </radialGradient>
+    <filter id="elGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="elSoft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/></filter></defs><style>
+    .el-bob{animation:el-bob 3.2s ease-in-out infinite}
+    @keyframes el-bob{50%{transform:translateY(-4px)}}
+    .el-earL{animation:el-earL 2.6s ease-in-out infinite}
+    @keyframes el-earL{50%{transform:rotate(-8deg)}}
+    .el-earR{animation:el-earR 2.6s ease-in-out infinite}
+    @keyframes el-earR{50%{transform:rotate(8deg)}}
+    .el-blink{animation:el-blink 4.5s infinite}
+    @keyframes el-blink{0%,93%,100%{transform:scaleY(1)}96%{transform:scaleY(.15)}}
+    .el-wave{animation:el-wave 1.1s ease-in-out infinite alternate}
+    @keyframes el-wave{from{transform:rotate(-12deg)}to{transform:rotate(14deg)}}
+    .el-type{animation:el-type .32s ease-in-out infinite alternate}
+    @keyframes el-type{from{transform:rotate(-5deg)}to{transform:rotate(5deg)}}
+    .el-point{animation:el-point 1.4s ease-in-out infinite alternate}
+    @keyframes el-point{from{transform:rotate(4deg)}to{transform:rotate(-6deg)}}
+    .el-sway{animation:el-sway 2.4s ease-in-out infinite alternate}
+    @keyframes el-sway{from{transform:rotate(-6deg)}to{transform:rotate(6deg)}}
+    .el-led{animation:el-led 1.8s ease-in-out infinite}
+    @keyframes el-led{50%{opacity:.35}}
+    .el-core{animation:el-core 2.2s ease-in-out infinite}
+    @keyframes el-core{50%{opacity:.45}}
+    .el-flow{stroke-dasharray:4 3;animation:el-flow 1s linear infinite}
+    @keyframes el-flow{to{stroke-dashoffset:-14}}
+    .el-shimmer{animation:el-shimmer 3s ease-in-out infinite}
+    @keyframes el-shimmer{50%{opacity:.4}}
+    .el-spin{animation:el-spin 6s linear infinite}
+    @keyframes el-spin{to{transform:rotate(360deg)}}</style>
+  <style>
+    .fx{font-family:Consolas,'SFMono-Regular',Menlo,monospace;font-size:15px;fill:#5EEAD4;opacity:0;animation:fx 3.6s ease-out infinite}
+    @keyframes fx{0%{opacity:0;transform:translateY(0)}20%{opacity:1}100%{opacity:0;transform:translateY(-70px)}}
+  </style>
+  <g transform="translate(1060 190) scale(0.95)"><g class="el-bob">
+    
+      <ellipse cx="0" cy="122" rx="52" ry="8" fill="url(#elShadow)"/>
+      
+      <rect x="-36" y="84" width="24" height="34" rx="8" fill="url(#elMetal)" stroke="#0B0D18" stroke-width="1.6"/>
+      <rect x="-36" y="95" width="24" height="5" fill="url(#elGold)"/>
+      <rect x="-31" y="112" width="14" height="3" rx="1.5" fill="#5EEAD4" filter="url(#elGlow)" class="el-led"/>
+      <rect x="12" y="84" width="24" height="34" rx="8" fill="url(#elMetal)" stroke="#0B0D18" stroke-width="1.6"/>
+      <rect x="12" y="95" width="24" height="5" fill="url(#elGold)"/>
+      <rect x="17" y="112" width="14" height="3" rx="1.5" fill="#5EEAD4" filter="url(#elGlow)" class="el-led"/>
+      <ellipse cx="0" cy="74" rx="44" ry="34" fill="url(#elMetal)" stroke="#0B0D18" stroke-width="1.6"/>
+      <ellipse cx="0" cy="74" rx="44" ry="34" fill="none" stroke="url(#elRim)" stroke-width="2" filter="url(#elGlow)"/>
+      <g transform="translate(0 76)">
+        <circle r="25" fill="#171A2E" stroke="url(#elGold)" stroke-width="2"/>
+        <path d="M0 -23.9 L2.4 -21.5 L0 -19.1 L-2.4 -21.5 Z M10.75 -21.02 L13.15 -18.62 L10.75 -16.22 L8.35 -18.62 Z M18.62 -13.15 L21.02 -10.75 L18.62 -8.35 L16.22 -10.75 Z M21.5 -2.4 L23.9 0 L21.5 2.4 L19.1 0 Z M18.62 8.35 L21.02 10.75 L18.62 13.15 L16.22 10.75 Z M10.75 16.22 L13.15 18.62 L10.75 21.02 L8.35 18.62 Z M0 19.1 L2.4 21.5 L0 23.9 L-2.4 21.5 Z M-10.75 16.22 L-8.35 18.62 L-10.75 21.02 L-13.15 18.62 Z M-18.62 8.35 L-16.22 10.75 L-18.62 13.15 L-21.02 10.75 Z M-21.5 -2.4 L-19.1 0 L-21.5 2.4 L-23.9 0 Z M-18.62 -13.15 L-16.22 -10.75 L-18.62 -8.35 L-21.02 -10.75 Z M-10.75 -21.02 L-8.35 -18.62 L-10.75 -16.22 L-13.15 -18.62 Z" fill="url(#elGold)"/>
+        <g class="el-spin">
+          <circle r="16.5" fill="none" stroke="#5EEAD4" stroke-width="2.4" stroke-dasharray="9 4.5" filter="url(#elGlow)"/>
+        </g>
+        <circle r="11" fill="url(#elCore)" class="el-core"/>
+        <path d="M-4.44 0.2 L-5.91 -4.05 L-1.99 -1.86 Z M-3.21 -1.15 L-3.63 -6.96 L-0.21 -2.25 Z M-1.6 -2 L0 -9 L1.6 -2 Z M0.21 -2.25 L3.63 -6.96 L3.21 -1.15 Z M1.99 -1.86 L5.91 -4.05 L4.44 0.2 Z M-6.5 4.5 A6.5 6.5 0 0 1 6.5 4.5" fill="url(#elGold)" stroke="url(#elGold)" stroke-width="1.6" stroke-linecap="round"/>
+      </g>
+      <ellipse cx="0" cy="45" rx="36" ry="8" fill="#000" opacity=".5" filter="url(#elSoft)"/>
+    <g transform="translate(-36 -6)"><g class="el-earL">
+      <ellipse cx="-26" cy="4" rx="31" ry="39" fill="url(#elEar)" stroke="#0B0D18" stroke-width="1.6"/>
+      <ellipse cx="-26" cy="4" rx="31" ry="39" fill="none" stroke="#5EEAD4" stroke-opacity=".75" stroke-width="1.6" filter="url(#elGlow)"/>
+      <ellipse cx="-28" cy="6" rx="20" ry="27" fill="#171A2E" stroke="url(#elGold)" stroke-width="1.6"/>
+      <g filter="url(#elGlow)">
+        <path class="el-flow" d="M-20 -12 h-8 v10 h-7 M-21 8 h-11 v9 M-24 24 h-8 v-6" fill="none" stroke="#5EEAD4" stroke-width="1.7" stroke-linecap="round"/>
+        <g class="el-led"><circle cx="-35" cy="-2" r="1.9" fill="#5EEAD4"/><circle cx="-32" cy="17" r="1.9" fill="#5EEAD4"/><circle cx="-32" cy="18" r="1.9" fill="#5EEAD4"/><circle cx="-20" cy="-12" r="1.9" fill="#5EEAD4"/><circle cx="-21" cy="8" r="1.9" fill="#5EEAD4"/><circle cx="-24" cy="24" r="1.9" fill="#5EEAD4"/></g>
+      </g>
+    </g></g><g transform="translate(36 -6)"><g class="el-earR">
+      <ellipse cx="26" cy="4" rx="31" ry="39" fill="url(#elEar)" stroke="#0B0D18" stroke-width="1.6"/>
+      <ellipse cx="26" cy="4" rx="31" ry="39" fill="none" stroke="#A78BFA" stroke-opacity=".75" stroke-width="1.6" filter="url(#elGlow)"/>
+      <ellipse cx="28" cy="6" rx="20" ry="27" fill="#171A2E" stroke="url(#elGold)" stroke-width="1.6"/>
+      <g filter="url(#elGlow)">
+        <path class="el-flow" d="M20 -12 h8 v10 h7 M21 8 h11 v9 M24 24 h8 v-6" fill="none" stroke="#A78BFA" stroke-width="1.7" stroke-linecap="round"/>
+        <g class="el-led"><circle cx="35" cy="-2" r="1.9" fill="#A78BFA"/><circle cx="32" cy="17" r="1.9" fill="#A78BFA"/><circle cx="32" cy="18" r="1.9" fill="#A78BFA"/><circle cx="20" cy="-12" r="1.9" fill="#A78BFA"/><circle cx="21" cy="8" r="1.9" fill="#A78BFA"/><circle cx="24" cy="24" r="1.9" fill="#A78BFA"/></g>
+      </g>
+    </g></g>
+    <circle r="46" fill="url(#elMetal)" stroke="#0B0D18" stroke-width="1.6"/>
+    <circle r="46" fill="none" stroke="url(#elRim)" stroke-width="2.2" filter="url(#elGlow)"/>
+    
+    <ellipse cx="0" cy="-58" rx="58" ry="30" fill="url(#elHalo)" class="el-shimmer"/>
+    <path d="M-33.2 -25.16 Q-41 -28.24 -44.93 -40.31 Q-32.27 -41.18 -26.49 -35.11 Z" fill="url(#elGold)" stroke="#7A4E14" stroke-width=".9"/><path d="M-28.55 -32.74 Q-36.33 -38.69 -38.41 -52.66 Q-24.74 -49.13 -19.63 -40.77 Z" fill="url(#elGold)" stroke="#7A4E14" stroke-width=".9"/><path d="M-22.2 -38.97 Q-28.99 -47.9 -28.45 -63.51 Q-15.21 -55.22 -11.6 -44.6 Z" fill="url(#elGold)" stroke="#7A4E14" stroke-width=".9"/><path d="M-14.53 -43.48 Q-19.3 -55.18 -15.43 -71.9 Q-4.17 -58.96 -2.89 -46.38 Z" fill="url(#elGold)" stroke="#7A4E14" stroke-width=".9"/><path d="M-6 -46 Q-7.8 -59.95 0 -77 Q7.8 -59.95 6 -46 Z" fill="url(#elGold)" stroke="#7A4E14" stroke-width=".9"/><path d="M2.89 -46.38 Q4.17 -58.96 15.43 -71.9 Q19.3 -55.18 14.53 -43.48 Z" fill="url(#elGold)" stroke="#7A4E14" stroke-width=".9"/><path d="M11.6 -44.6 Q15.21 -55.22 28.45 -63.51 Q28.99 -47.9 22.2 -38.97 Z" fill="url(#elGold)" stroke="#7A4E14" stroke-width=".9"/><path d="M19.63 -40.77 Q24.74 -49.13 38.41 -52.66 Q36.33 -38.69 28.55 -32.74 Z" fill="url(#elGold)" stroke="#7A4E14" stroke-width=".9"/><path d="M26.49 -35.11 Q32.27 -41.18 44.93 -40.31 Q41 -28.24 33.2 -25.16 Z" fill="url(#elGold)" stroke="#7A4E14" stroke-width=".9"/>
+    <path d="M-29.85 -30.13 L-40.71 -37.46 M-24.09 -36.75 L-34.4 -48.2 M-16.9 -41.79 L-25.22 -57.42 M-8.71 -44.93 L-13.55 -64.35 M0 -46 L0 -68.32 M8.71 -44.93 L13.55 -64.35 M16.9 -41.79 L25.22 -57.42 M24.09 -36.75 L34.4 -48.2 M29.85 -30.13 L40.71 -37.46" stroke="#9A6420" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M-31.2 -28 A36 36 0 0 1 31.2 -28" fill="none" stroke="url(#elGold)" stroke-width="9" stroke-linecap="round"/>
+    <path d="M-29 -30.6 A33.5 33.5 0 0 1 29 -30.6" fill="none" stroke="#5EEAD4" stroke-width="1.4" filter="url(#elGlow)" class="el-led"/>
+    <path d="M-23.4 -36.5 L-21 -40.5 L-18.6 -36.5 L-21 -32.5 Z M-17.4 -36.5 L-15 -40.5 L-12.6 -36.5 L-15 -32.5 Z M-11.4 -36.5 L-9 -40.5 L-6.6 -36.5 L-9 -32.5 Z M-5.4 -36.5 L-3 -40.5 L-0.6 -36.5 L-3 -32.5 Z M0.6 -36.5 L3 -40.5 L5.4 -36.5 L3 -32.5 Z M6.6 -36.5 L9 -40.5 L11.4 -36.5 L9 -32.5 Z M12.6 -36.5 L15 -40.5 L17.4 -36.5 L15 -32.5 Z M18.6 -36.5 L21 -40.5 L23.4 -36.5 L21 -32.5 Z " fill="url(#elGold)"/>
+    <path d="M0 -55 L5.5 -47 L0 -39 L-5.5 -47 Z" fill="#5EEAD4" stroke="#E6FFFA" stroke-width=".8" filter="url(#elGlow)" class="el-core"/>
+    <g transform="translate(-17 -2)"><g class="el-blink">
+      <path d="M-9 -3 L8 -6 L6 3 L-7 3 Z" fill="#5EEAD4" filter="url(#elGlow)"/>
+      <path d="M-5 -1.5 L3 -3" stroke="#E6FFFA" stroke-width="1.4" stroke-linecap="round"/>
+    </g></g><g transform="translate(17 -2)"><g class="el-blink">
+      <path d="M9 -3 L-8 -6 L-6 3 L7 3 Z" fill="#5EEAD4" filter="url(#elGlow)"/>
+      <path d="M5 -1.5 L-3 -3" stroke="#E6FFFA" stroke-width="1.4" stroke-linecap="round"/>
+    </g></g>
+    <path d="M-11 16 Q-15 30 -27 34 Q-18 26 -6 20 Z" fill="url(#elGold)" stroke="#7A4E14" stroke-width=".8"/><path d="M11 16 Q15 30 27 34 Q18 26 6 20 Z" fill="url(#elGold)" stroke="#7A4E14" stroke-width=".8"/>
+    <g transform="translate(0 8)"><g class="el-type">
+      <path d="M0 0 C0 14 0 26 2 36" fill="none" stroke="#0B0D18" stroke-width="17" stroke-linecap="round"/>
+      <path d="M0 0 C0 14 0 26 2 36" fill="none" stroke="#2E3460" stroke-width="14" stroke-linecap="round"/>
+      <path d="M0 0 C0 14 0 26 2 36" fill="none" stroke="#4C5590" stroke-width="14" stroke-dasharray="3 6" stroke-linecap="butt"/>
+      <path d="M0 0 C0 14 0 26 2 36" fill="none" stroke="#8C96D6" stroke-opacity=".55" stroke-width="2.4" stroke-linecap="round" transform="translate(-2.6 -2.2)"/>
+      <circle cx="2" cy="36" r="4" fill="none" stroke="#5EEAD4" stroke-width="1.8" filter="url(#elGlow)" class="el-led"/>
+    </g></g>
+  </g></g>
+  <text class="fx" x="985" y="250" style="animation-delay:0s" text-anchor="middle">{ }</text><text class="fx" x="1060" y="250" style="animation-delay:1.2s" text-anchor="middle">&lt;/&gt;</text><text class="fx" x="1135" y="250" style="animation-delay:2.4s" text-anchor="middle">=&gt;</text>
+  <g>
+    <rect x="998" y="246" width="124" height="58" rx="8" fill="#1A1D33" stroke="#F2C46D" stroke-width="1.6"/>
+    <rect x="998" y="246" width="124" height="58" rx="8" fill="none" stroke="#5EEAD4" stroke-opacity=".35" stroke-width="4" filter="url(#elGlow)"/>
+    <text x="1060" y="282" text-anchor="middle" font-family="Consolas,'SFMono-Regular',Menlo,monospace" font-size="18" font-weight="700" fill="#5EEAD4" filter="url(#elGlow)" class="el-led">&lt;/&gt;</text>
+    <path d="M980 304 H1140 L1132 314 H988 Z" fill="#2E3460" stroke="#0B0D18" stroke-width="1.4"/>
+  </g><!-- /mascot -->
 </svg>

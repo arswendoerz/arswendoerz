@@ -14,7 +14,7 @@
 
 <img src="assets/tech-ticker.svg" width="100%" alt="React, Next.js, TypeScript, JavaScript, Tailwind, HTML, CSS, Vite, Laravel, PHP, Node.js, Express, Python, Git, Figma, VS Code" />
 
-<h3>GitHub Stats</h3>
+<img src="assets/stats-title.svg" width="100%" alt="GitHub Stats" />
 
 <img src="https://github-readme-stats.vercel.app/api?username=arswendoerz&show_icons=true&include_all_commits=true&count_private=true&hide_title=true&theme=tokyonight&hide_border=true&bg_color=13141F&icon_color=5EEAD4&title_color=7AA2F7" height="165" alt="GitHub stats" /> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arswendoerz&layout=compact&langs_count=8&hide_title=true&theme=tokyonight&hide_border=true&bg_color=13141F" height="165" alt="Top languages" />
 
