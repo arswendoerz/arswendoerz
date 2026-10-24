@@ -61,28 +61,46 @@ async function ticker() {
 function footer() {
   const width = 1200;
   const height = 170;
-  // A wave path two wavelengths wide per screen; shifting by one wavelength loops seamlessly.
-  const wave = (amp, len, y) => {
-    let d = `M0 ${y}`;
-    for (let x = 0; x < width * 2; x += len) {
-      d += ` q${len / 4} ${-amp} ${len / 2} 0 t${len / 2} 0`;
-    }
-    return { d: `${d} V${height} H0 Z`, len };
-  };
-  const layers = [
-    { ...wave(14, 400, 82), fill: '#7C3AED', op: .35, dur: 14 },
-    { ...wave(18, 600, 98), fill: '#4F8CC9', op: .45, dur: 18 },
-    { ...wave(12, 300, 116), fill: '#38B2AC', op: .55, dur: 10 },
-  ];
+  const ground = 150;
+  const s = 0.6;
+  const from = 100;
+  const span = 1000;
+  // A glowing ground line with a tapis diamond border, faded out at both ends.
+  const diamonds = [];
+  for (let x = 60; x <= 1140; x += 18) {
+    diamonds.push(`M${x} ${ground + 10} l4 -4 l4 4 l-4 4 Z`);
+  }
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-label="Footer">
-  <defs>${mascotDefs()}</defs>
+  <defs>${mascotDefs()}
+    <linearGradient id="gl" x1="0" x2="1">
+      <stop offset="0" stop-color="#5EEAD4" stop-opacity="0"/><stop offset=".15" stop-color="#5EEAD4"/>
+      <stop offset=".85" stop-color="#A78BFA"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".15" stop-color="#fff"/>
+      <stop offset=".85" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="edges"><rect width="${width}" height="${height}" fill="url(#fade)"/></mask>
+  </defs>
   <style>${mascotCss()}
-${layers.map((l, i) => `    .w${i}{animation:w${i} ${l.dur}s linear infinite}
-    @keyframes w${i}{to{transform:translateX(-${l.len}px)}}`).join('\n')}
+    .walker{animation:walk 26s linear infinite}
+    @keyframes walk{
+      0%{transform:translateX(0) scaleX(1)}
+      47%{transform:translateX(${span}px) scaleX(1)}
+      50%{transform:translateX(${span}px) scaleX(-1)}
+      97%{transform:translateX(0) scaleX(-1)}
+      100%{transform:translateX(0) scaleX(1)}}
+    .pulse{animation:pulse 3s ease-in-out infinite}
+    @keyframes pulse{50%{opacity:.45}}
   </style>
-${layers.map((l, i) => `  <path class="w${i}" d="${l.d}" fill="${l.fill}" fill-opacity="${l.op}"/>`
-    // The mascot wades behind the front wave.
-    + (i === 1 ? `\n  ${elephant({ x: 1040, y: 58, s: 0.55, trunk: 'wave' })}` : '')).join('\n')}
+  <g mask="url(#edges)">
+    <rect x="0" y="${ground - 1}" width="${width}" height="2" fill="url(#gl)" filter="url(#elGlow)" class="pulse"/>
+    <path d="${diamonds.join(' ')}" fill="url(#elGold)" opacity=".8"/>
+  </g>
+  <!-- The mascot walks along the ground, turning round at each end. -->
+  <g transform="translate(${from} 0)"><g class="walker">
+    ${elephant({ x: 0, y: ground - 122 * s, s, trunk: 'point', walk: true })}
+  </g></g>
 </svg>
 `;
   fs.writeFileSync(path.join(__dirname, 'footer.svg'), svg);
@@ -104,8 +122,55 @@ function inject(file, content) {
 function scenes() {
   const head = `<defs>${mascotDefs()}</defs><style>${mascotCss()}</style>`;
 
-  // Banner: waving at the right of the name.
-  inject('header.svg', `${head}${elephant({ x: 1075, y: 145, s: 1.15, trunk: 'wave' })}`);
+  // Banner: a black hole opens beside the name, the mascot spirals out of it, hops,
+  // sways and waves, then is pulled back in and the black hole closes. One 12s loop.
+  const [hx, hy] = [1045, 168];
+  const ms = 0.95;
+  const ring = (rr, color, w, dash, dur, rev) =>
+    `<circle r="${rr}" fill="none" stroke="${color}" stroke-width="${w}" stroke-dasharray="${dash}" stroke-linecap="round" filter="url(#elGlow)" style="animation:spin ${dur}s linear infinite${rev ? ' reverse' : ''}"/>`;
+  inject('header.svg', `${head}
+  <defs>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#7C3AED" stop-opacity=".5"/><stop offset=".5" stop-color="#4F8CC9" stop-opacity=".22"/><stop offset="1" stop-color="#4F8CC9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="disk">
+      <stop offset=".3" stop-color="#000" stop-opacity="0"/><stop offset=".42" stop-color="#F2C46D" stop-opacity=".9"/>
+      <stop offset=".6" stop-color="#A78BFA" stop-opacity=".55"/><stop offset="1" stop-color="#5EEAD4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>
+    @keyframes spin{to{transform:rotate(360deg)}}
+    .bh{animation:bh 12s cubic-bezier(.4,0,.2,1) infinite}
+    @keyframes bh{0%{transform:scale(0)}8%{transform:scale(1)}80%{transform:scale(1)}93%,100%{transform:scale(0)}}
+    .act{animation:act 12s ease-in-out infinite}
+    @keyframes act{
+      0%,9%{transform:translateY(0) rotate(-200deg) scale(0);opacity:0}
+      22%{transform:translateY(0) rotate(0) scale(1);opacity:1}
+      27%{transform:translateY(-16px) rotate(0) scale(1)}
+      31%{transform:translateY(0) rotate(0) scale(1.04,.96)}
+      35%{transform:translateY(-16px) rotate(0) scale(1)}
+      39%{transform:translateY(0) rotate(0) scale(1)}
+      47%{transform:translateY(0) rotate(-9deg) scale(1)}
+      55%{transform:translateY(0) rotate(9deg) scale(1)}
+      62%{transform:translateY(0) rotate(0) scale(1)}
+      67%{transform:translateY(0) rotate(0) scale(1.08,.92);opacity:1}
+      79%{transform:translateY(0) rotate(220deg) scale(0);opacity:.6}
+      80%,100%{transform:translateY(0) rotate(220deg) scale(0);opacity:0}}
+  </style>
+  <circle cx="${hx}" cy="${hy}" r="160" fill="url(#aura)" class="el-shimmer"/>
+  <g transform="translate(${hx} ${hy})"><g class="bh">
+    <circle r="96" fill="url(#disk)"/>
+    ${ring(84, '#5EEAD4', 2, '60 40 18 40', 9, false)}
+    ${ring(70, '#A78BFA', 3, '90 30 20 30', 6, true)}
+    ${ring(56, '#F2C46D', 2.5, '50 24 10 24', 4, false)}
+    ${ring(44, '#FFF1B8', 1.6, '30 18', 2.6, true)}
+    <circle r="36" fill="#05060C"/>
+    <circle r="36" fill="none" stroke="#FFF1B8" stroke-width="1.6" filter="url(#elGlow)" class="el-led"/>
+  </g></g>
+  <!-- The mascot's own origin is the centre of the black hole, so it spirals in and out of it. -->
+  <g transform="translate(${hx} ${hy})"><g class="act">
+    ${elephant({ x: 0, y: -22 * ms, s: ms, trunk: 'wave' })}
+  </g></g>`);
 
   // About card: typing behind a laptop, code symbols drifting up from the screen.
   const symbols = [['{ }', 985, 0], ['&lt;/&gt;', 1060, 1.2], ['=&gt;', 1135, 2.4]]

@@ -12,25 +12,60 @@ const C = {
   plate: '#171A2E',
 };
 
-// Trunk paths start at the trunk base; tip is where the path ends.
+// Trunk poses start at the trunk base. Each has three shapes with the same path commands;
+// the trunk morphs rest -> b -> rest -> c -> rest, so it bends like a trunk instead of
+// swinging stiffly from the base.
 const TRUNKS = {
-  down: { d: 'M0 0 C0 18 -2 30 6 38 C12 44 20 40 18 32', tip: [18, 32] },
-  wave: { d: 'M0 0 C16 4 40 2 54 -18 C62 -30 60 -44 50 -46', tip: [50, -46] },
-  point: { d: 'M0 0 C12 8 34 8 58 -6', tip: [58, -6] },
-  type: { d: 'M0 0 C0 14 0 26 2 36', tip: [2, 36] },
+  down: {
+    dur: 3.2,
+    frames: [
+      'M0 0 C0 18 -2 30 6 38 C12 44 20 40 18 32',
+      'M0 0 C2 18 3 30 11 37 C17 42 25 36 21 28',
+      'M0 0 C-2 18 -6 30 0 39 C6 46 15 45 15 37',
+    ],
+  },
+  wave: {
+    dur: 2.4,
+    frames: [
+      'M0 0 C22 8 48 0 58 -26 C64 -44 58 -62 46 -68',
+      'M0 0 C24 6 52 -6 62 -32 C68 -50 72 -64 84 -66',
+      'M0 0 C20 10 44 6 54 -18 C60 -34 50 -50 38 -50',
+    ],
+  },
+  point: {
+    dur: 2.6,
+    frames: [
+      'M0 0 C12 8 34 8 58 -6',
+      'M0 0 C12 10 36 13 61 3',
+      'M0 0 C12 6 32 1 55 -15',
+    ],
+  },
+  type: {
+    dur: 0.7,
+    frames: [
+      'M0 0 C0 14 0 26 2 36',
+      'M0 0 C1 14 4 25 7 34',
+      'M0 0 C-1 14 -4 25 -3 35',
+    ],
+  },
 };
 
-const TRUNK_ANIM = { down: 'el-sway', wave: 'el-wave', point: 'el-point', type: 'el-type' };
+const tipOf = d => d.trim().split(/[ ,]+/).slice(-2).map(Number);
+
+function morph(attr, [a, b, c], dur) {
+  const ease = '0.45 0 0.55 1';
+  return `<animate attributeName="${attr}" values="${a};${b};${a};${c};${a}" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="${ease};${ease};${ease};${ease}" dur="${dur}s" repeatCount="indefinite"/>`;
+}
 
 const r = n => +n.toFixed(2);
 
 function mascotDefs() {
   return `
     <radialGradient id="elMetal" cx=".35" cy=".28" r=".85">
-      <stop offset="0" stop-color="#6670AC"/><stop offset=".45" stop-color="#2E3460"/><stop offset="1" stop-color="#121427"/>
+      <stop offset="0" stop-color="#7C87CB"/><stop offset=".45" stop-color="#3A4178"/><stop offset="1" stop-color="#171A32"/>
     </radialGradient>
     <radialGradient id="elEar" cx=".5" cy=".35" r=".8">
-      <stop offset="0" stop-color="#4C5590"/><stop offset=".6" stop-color="#252A4D"/><stop offset="1" stop-color="#101222"/>
+      <stop offset="0" stop-color="#5A64A6"/><stop offset=".6" stop-color="#2D335E"/><stop offset="1" stop-color="#14172B"/>
     </radialGradient>
     <linearGradient id="elGold" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#FFF1B8"/><stop offset=".45" stop-color="#F2C46D"/><stop offset="1" stop-color="#A86F24"/>
@@ -159,24 +194,28 @@ function tusk(m) {
 }
 
 /**
- * @param {{x:number, y:number, s:number, trunk:keyof TRUNKS, body?:boolean}} o
- *   x/y place the head centre; body:false draws only the head (for peeking).
+ * @param {{x:number, y:number, s:number, trunk:keyof TRUNKS, body?:boolean, walk?:boolean}} o
+ *   x/y place the head centre; body:false draws only the head (for peeking);
+ *   walk:true steps the legs and waddles instead of bobbing in place.
  */
-function elephant({ x, y, s = 1, trunk = 'down', body = true }) {
-  const leg = lx => `
+function elephant({ x, y, s = 1, trunk = 'down', body = true, walk = false }) {
+  const leg = (lx, side) => `<g class="${walk ? `el-step${side}` : ''}">
       <rect x="${lx}" y="84" width="24" height="34" rx="8" fill="url(#elMetal)" stroke="${C.line}" stroke-width="1.6"/>
       <rect x="${lx}" y="95" width="24" height="5" fill="url(#elGold)"/>
-      <rect x="${lx + 5}" y="112" width="14" height="3" rx="1.5" fill="${C.teal}" filter="url(#elGlow)" class="el-led"/>`;
+      <rect x="${lx + 5}" y="112" width="14" height="3" rx="1.5" fill="${C.teal}" filter="url(#elGlow)" class="el-led"/></g>`;
   const lower = body ? `
       <ellipse cx="0" cy="122" rx="52" ry="8" fill="url(#elShadow)"/>
-      ${leg(-36)}${leg(12)}
+      ${leg(-36, 'L')}${leg(12, 'R')}
       <ellipse cx="0" cy="74" rx="44" ry="34" fill="url(#elMetal)" stroke="${C.line}" stroke-width="1.6"/>
       <ellipse cx="0" cy="74" rx="44" ry="34" fill="none" stroke="url(#elRim)" stroke-width="2" filter="url(#elGlow)"/>
       ${chestCore()}
       <ellipse cx="0" cy="45" rx="36" ry="8" fill="#000" opacity=".5" filter="url(#elSoft)"/>` : '';
   const t = TRUNKS[trunk];
+  const d0 = t.frames[0];
+  const dAnim = morph('d', t.frames, t.dur);
+  const tips = t.frames.map(tipOf);
 
-  return `<g transform="translate(${x} ${y}) scale(${s})"><g class="el-bob">
+  return `<g transform="translate(${x} ${y}) scale(${s})"><g class="${walk ? 'el-waddle' : 'el-bob'}">
     ${lower}
     ${ear('L')}${ear('R')}
     <circle r="46" fill="url(#elMetal)" stroke="${C.line}" stroke-width="1.6"/>
@@ -184,13 +223,15 @@ function elephant({ x, y, s = 1, trunk = 'down', body = true }) {
     ${siger()}
     ${eye(-17)}${eye(17)}
     ${tusk(1)}${tusk(-1)}
-    <g transform="translate(0 8)"><g class="${TRUNK_ANIM[trunk]}">
-      <path d="${t.d}" fill="none" stroke="${C.line}" stroke-width="17" stroke-linecap="round"/>
-      <path d="${t.d}" fill="none" stroke="#2E3460" stroke-width="14" stroke-linecap="round"/>
-      <path d="${t.d}" fill="none" stroke="#4C5590" stroke-width="14" stroke-dasharray="3 6" stroke-linecap="butt"/>
-      <path d="${t.d}" fill="none" stroke="#8C96D6" stroke-opacity=".55" stroke-width="2.4" stroke-linecap="round" transform="translate(-2.6 -2.2)"/>
-      <circle cx="${t.tip[0]}" cy="${t.tip[1]}" r="4" fill="none" stroke="${C.teal}" stroke-width="1.8" filter="url(#elGlow)" class="el-led"/>
-    </g></g>
+    <g transform="translate(0 8)">
+      <path d="${d0}" fill="none" stroke="${C.line}" stroke-width="17" stroke-linecap="round">${dAnim}</path>
+      <path d="${d0}" fill="none" stroke="#2E3460" stroke-width="14" stroke-linecap="round">${dAnim}</path>
+      <path d="${d0}" fill="none" stroke="#4C5590" stroke-width="14" stroke-dasharray="3 6" stroke-linecap="butt">${dAnim}</path>
+      <path d="${d0}" fill="none" stroke="#8C96D6" stroke-opacity=".55" stroke-width="2.4" stroke-linecap="round" transform="translate(-2.6 -2.2)">${dAnim}</path>
+      <circle cx="${tips[0][0]}" cy="${tips[0][1]}" r="4" fill="none" stroke="${C.teal}" stroke-width="1.8" filter="url(#elGlow)" class="el-led">
+        ${morph('cx', tips.map(p => p[0]), t.dur)}${morph('cy', tips.map(p => p[1]), t.dur)}
+      </circle>
+    </g>
   </g></g>`;
 }
 
@@ -204,14 +245,6 @@ function mascotCss() {
     @keyframes el-earR{50%{transform:rotate(8deg)}}
     .el-blink{animation:el-blink 4.5s infinite}
     @keyframes el-blink{0%,93%,100%{transform:scaleY(1)}96%{transform:scaleY(.15)}}
-    .el-wave{animation:el-wave 1.1s ease-in-out infinite alternate}
-    @keyframes el-wave{from{transform:rotate(-12deg)}to{transform:rotate(14deg)}}
-    .el-type{animation:el-type .32s ease-in-out infinite alternate}
-    @keyframes el-type{from{transform:rotate(-5deg)}to{transform:rotate(5deg)}}
-    .el-point{animation:el-point 1.4s ease-in-out infinite alternate}
-    @keyframes el-point{from{transform:rotate(4deg)}to{transform:rotate(-6deg)}}
-    .el-sway{animation:el-sway 2.4s ease-in-out infinite alternate}
-    @keyframes el-sway{from{transform:rotate(-6deg)}to{transform:rotate(6deg)}}
     .el-led{animation:el-led 1.8s ease-in-out infinite}
     @keyframes el-led{50%{opacity:.35}}
     .el-core{animation:el-core 2.2s ease-in-out infinite}
@@ -221,7 +254,12 @@ function mascotCss() {
     .el-shimmer{animation:el-shimmer 3s ease-in-out infinite}
     @keyframes el-shimmer{50%{opacity:.4}}
     .el-spin{animation:el-spin 6s linear infinite}
-    @keyframes el-spin{to{transform:rotate(360deg)}}`;
+    @keyframes el-spin{to{transform:rotate(360deg)}}
+    .el-waddle{transform-origin:0 122px;animation:el-waddle .9s ease-in-out infinite alternate}
+    @keyframes el-waddle{from{transform:rotate(-3deg) translateY(0)}to{transform:rotate(3deg) translateY(-2px)}}
+    .el-stepL{animation:el-step .9s ease-in-out infinite alternate}
+    .el-stepR{animation:el-step .9s ease-in-out infinite alternate-reverse}
+    @keyframes el-step{from{transform:translateY(0)}to{transform:translateY(-7px)}}`;
 }
 
 module.exports = { elephant, mascotDefs, mascotCss, C };
