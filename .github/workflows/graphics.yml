@@ -2,7 +2,8 @@ name: Contribution graphics
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    # 00:23 and 12:23 WIB; off the top of the hour, when GitHub drops or delays runs.
+    - cron: "23 5,17 * * *"
   workflow_dispatch:
   push:
     branches: [main]
