@@ -30,6 +30,12 @@ jobs:
           mkdir -p out
           cp profile-3d-contrib/profile-3d.svg out/
 
+      # Stats and top-language cards, drawn here instead of by a hosted service.
+      - name: Stats cards
+        run: node .github/scripts/stats-cards.js ${{ github.repository_owner }} out
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       # The output branch is replaced on every run.
       - uses: crazy-max/ghaction-github-pages@v4
         with:

@@ -16,7 +16,7 @@
 
 <img src="assets/stats-title.svg" width="100%" alt="GitHub Stats" />
 
-<img src="https://github-readme-stats.vercel.app/api?username=arswendoerz&show_icons=true&include_all_commits=true&count_private=true&hide_title=true&theme=tokyonight&hide_border=true&bg_color=13141F&icon_color=5EEAD4&title_color=7AA2F7" height="165" alt="GitHub stats" /> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arswendoerz&layout=compact&langs_count=8&hide_title=true&theme=tokyonight&hide_border=true&bg_color=13141F" height="165" alt="Top languages" />
+<img src="https://raw.githubusercontent.com/arswendoerz/arswendoerz/output/stats.svg" height="165" alt="GitHub stats" /> <img src="https://raw.githubusercontent.com/arswendoerz/arswendoerz/output/top-langs.svg" height="165" alt="Top languages" />
 
 <img src="https://streak-stats.demolab.com?user=arswendoerz&theme=tokyonight&hide_border=true&background=13141F&ring=5EEAD4&fire=A78BFA&currStreakLabel=5EEAD4&date_format=M%20j%5B%2C%20Y%5D" width="100%" alt="GitHub streak" />
 
