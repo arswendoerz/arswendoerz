@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="195" viewBox="0 0 350 195" role="img" aria-label="Top languages">
+  <title>Top languages</title>
+  <style>
+    .t { font: 400 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #C0CAF5; }
+    .v { font: 700 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #C0CAF5; }
+    .m { font: 400 11px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #737AA2; }
+    .row { animation: in .5s ease-out backwards; }
+    @keyframes in { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) { .row { animation: none; } }
+  </style>
+  <rect x=".5" y=".5" width="349" height="194" rx="10" fill="#13141F" stroke="#1F2335"/>
+  <clipPath id="bar"><rect x="0" y="0" width="300" height="8" rx="4"/></clipPath>
+  <rect x="25" y="35" width="300" height="8" rx="4" fill="#1F2335"/>
+  <g clip-path="url(#bar)" transform="translate(25 35)"><rect x="0.00" y="0" width="157.22" height="8" fill="#e34c26"/><rect x="157.22" y="0" width="86.18" height="8" fill="#f1e05a"/><rect x="243.40" y="0" width="19.43" height="8" fill="#663399"/><rect x="262.84" y="0" width="19.38" height="8" fill="#3572A5"/><rect x="282.22" y="0" width="5.84" height="8" fill="#f34b7d"/><rect x="288.06" y="0" width="4.52" height="8" fill="#4F5D95"/><rect x="292.58" y="0" width="4.45" height="8" fill="#3178c6"/><rect x="297.03" y="0" width="2.97" height="8" fill="#336790"/></g>
+  <g transform="translate(25 70)"><g class="row" style="animation-delay:0.00s">
+    <circle cx="5" cy="6" r="5" fill="#e34c26"/>
+    <text class="t" x="16" y="10.5" style="font-size:12.5px">HTML <tspan fill="#737AA2">52.41%</tspan></text>
+  </g></g>
+  <g transform="translate(180 70)"><g class="row" style="animation-delay:0.10s">
+    <circle cx="5" cy="6" r="5" fill="#f1e05a"/>
+    <text class="t" x="16" y="10.5" style="font-size:12.5px">JavaScript <tspan fill="#737AA2">28.73%</tspan></text>
+  </g></g>
+  <g transform="translate(25 96)"><g class="row" style="animation-delay:0.20s">
+    <circle cx="5" cy="6" r="5" fill="#663399"/>
+    <text class="t" x="16" y="10.5" style="font-size:12.5px">CSS <tspan fill="#737AA2">6.48%</tspan></text>
+  </g></g>
+  <g transform="translate(180 96)"><g class="row" style="animation-delay:0.30s">
+    <circle cx="5" cy="6" r="5" fill="#3572A5"/>
+    <text class="t" x="16" y="10.5" style="font-size:12.5px">Python <tspan fill="#737AA2">6.46%</tspan></text>
+  </g></g>
+  <g transform="translate(25 122)"><g class="row" style="animation-delay:0.40s">
+    <circle cx="5" cy="6" r="5" fill="#f34b7d"/>
+    <text class="t" x="16" y="10.5" style="font-size:12.5px">C++ <tspan fill="#737AA2">1.95%</tspan></text>
+  </g></g>
+  <g transform="translate(180 122)"><g class="row" style="animation-delay:0.50s">
+    <circle cx="5" cy="6" r="5" fill="#4F5D95"/>
+    <text class="t" x="16" y="10.5" style="font-size:12.5px">PHP <tspan fill="#737AA2">1.51%</tspan></text>
+  </g></g>
+  <g transform="translate(25 148)"><g class="row" style="animation-delay:0.60s">
+    <circle cx="5" cy="6" r="5" fill="#3178c6"/>
+    <text class="t" x="16" y="10.5" style="font-size:12.5px">TypeScript <tspan fill="#737AA2">1.48%</tspan></text>
+  </g></g>
+  <g transform="translate(180 148)"><g class="row" style="animation-delay:0.70s">
+    <circle cx="5" cy="6" r="5" fill="#336790"/>
+    <text class="t" x="16" y="10.5" style="font-size:12.5px">PLpgSQL <tspan fill="#737AA2">0.99%</tspan></text>
+  </g></g>
+</svg>
